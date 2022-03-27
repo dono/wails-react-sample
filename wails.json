@@ -1,0 +1,11 @@
+{
+  "name": "wails-react-sample",
+  "assetdir": "./frontend/dist",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "outputfilename": "wails-react-sample",
+  "author": {
+    "name": "dono",
+    "email": "xononeet@gmail.com"
+  }
+}
