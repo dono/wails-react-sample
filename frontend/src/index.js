@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { render } from 'react-dom';
-import Top from './pages';
+import React, { useState } from "react";
+import { render } from "react-dom";
+import Top from "./pages/Top.js";
 
-import './index.css';
+import "./index.css";
 
-render(<Top />, document.querySelector('#root'));
+render(<Top />, document.querySelector("#root"));

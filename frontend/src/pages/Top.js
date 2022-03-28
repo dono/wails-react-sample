@@ -1,29 +1,27 @@
-import React, { useState } from 'react';
-import { Card } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Card } from "react-bootstrap";
 
-import './Top.css';
+import "./Top.css";
 
 const Top = () => {
-  const [result, setResult] = useState('Please enter your name below 👇');
-  const [name, setName] = useState('');
+  // const [result, setResult] = useState("Please enter your name below 👇");
+  // const [name, setName] = useState("");
 
-  const greet = () => {
-    window.go.main.App.Greet(name).then((result) => {
-      setResult(result);
-   });
-  };
+  // const greet = () => {
+  //   window.go.main.App.Greet(name).then((result) => {
+  //     setResult(result);
+  //   });
+  // };
 
-  const handleChange = (event) => {
-    setName(event.target.value);
-  };
+  // const handleChange = (event) => {
+  //   setName(event.target.value);
+  // };
 
   return (
     <>
+      <p>hoge</p>
       <Card>
-        <Card.Body>Hoge</Card.Body>
-      </Card>
-      <Card>
-        <Card.Body>Fuga</Card.Body>
+        <Card.Text>Fuga</Card.Text>
       </Card>
     </>
     // <>
